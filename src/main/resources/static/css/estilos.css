@@ -1,0 +1,86 @@
+/*selecttor de ids*/
+
+#encabezado {
+    top:0; /*comienzo*/
+    left: 0;
+    height: 10% ;/*altura*/
+    width: 100%;/*ancho*/
+    position: fixed;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+#menu{
+    top: 10%;
+    left: 0;
+    height: 5% ;/*altura*/
+    width: 100%;/*ancho*/
+    position: fixed;
+    text-align: right;
+    background-color: coral;
+}
+
+#barraLateral{
+    top: 15%;
+    left: 0;
+    height: 75% ;/*altura*/
+    width: 20%;/*ancho*/
+    position: fixed;
+    background-color: darkgreen;
+    
+}
+
+
+#contenido{
+    top: 15%;
+    left: 20%;
+    height: 75% ;/*altura*/
+    width: 80%;/*ancho*/
+    position: fixed;
+    background-color: dimgray;
+    
+}
+
+#piePagina{
+    bottom:0%;/*comenzar desde abajo*/
+    left: 0%;
+    height: 10% ;/*altura*/
+    width: 100%;/*ancho*/
+    position: fixed;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+
+/*selector de clases*/
+.parrafoBlanco{
+    color: white;
+}
+.parrafoCentrado{
+   text-align: center;
+}
+
+/*p{
+    font-size: 20px;
+}*/
+
+/*p,h1,h2 {
+    font-size: 5px;
+}*/
+
+div.parrafoBlanco p {
+    font-size: 50px;
+}
+
+a:visited{
+    font-size: 30px;
+}
+a:hover{
+    background-color: green;
+    color: white;
+    transition: 0.7;
+}
+a:active{
+    background-color: purple;
+    color: white;
+}
